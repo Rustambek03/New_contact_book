@@ -1,0 +1,22 @@
+{
+  "Contacts": [
+    {
+      "name": "Rustambek",
+      "surname": "Abdyldaev",
+      "number": "0708028840",
+      "address": "Kara Djygach",
+      "email": "abdyldaevrustambek03@gmail.com",
+      "photo": "https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg",
+      "id": 1606980231692
+    },
+    {
+      "name": "Rustambek",
+      "surname": "Abdyldaev",
+      "number": "12345678765",
+      "address": "Bishkek 123",
+      "email": "Abd@gmail.com",
+      "photo": "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG98ZW58MHx8MHw%3D&w=1000&q=80",
+      "id": 1606984267764
+    }
+  ]
+}
