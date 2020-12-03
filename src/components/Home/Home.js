@@ -3,7 +3,8 @@ import AddContact from '../AddContact/AddContact';
 import ContactList from '../ContactList/ContactList';
 import Navbar from '../Navbar/Navbar';
 
-const Home = () => {
+const Home = (props) => {
+
     return (
         <div>
             <Navbar/>

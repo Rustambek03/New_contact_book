@@ -20,25 +20,26 @@ const ContactDetails = () => {
 
     const useStyles = makeStyles({
         root: {
-          maxWidth: 450
+          minWidth: 450,
+          maxWidth: 460
         },
     });
 
     const classes = useStyles();
 
-    let AltImg = "https://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/contacts-icon.png"
+
 
     return (
         <div>
-            <Navbar/>
+            <Navbar />
             <div style={{marginTop: '40px' ,display: 'flex', justifyContent: 'center'}}>
                 <Card className={classes.root}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            alt={AltImg}
+                            alt=''
                             height="250"
-                            image={details.photo}
+                            image={details.photo ? null : 'https://stats.health.utah.gov/wp-content/uploads/2020/05/139-1396482_person-icons-gray.jpg'}
                             title="Contemplative Reptile"
                         />
                         <CardContent>

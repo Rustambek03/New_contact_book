@@ -43,7 +43,7 @@ const ContactContextProvider = ({children}) => {
         getContactData()
     }
 
-    const editContact = async (id, history) => {
+    const editContact = async (id) => {
         let { data } = await axios(`http://localhost:8000/Contacts/${id}`)
         dispatch({
             type: "EDIT_CONTACT",
@@ -62,7 +62,7 @@ const ContactContextProvider = ({children}) => {
     }
 
     const cancelButton = (history) => {
-        history.push('/')
+        history.push('/')   
     }
 
 

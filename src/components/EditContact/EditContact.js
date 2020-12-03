@@ -28,7 +28,6 @@ const EditContact = (props) => {
   
 
 
-
   const useStyles = makeStyles((theme) => ({
     root: {
       '& > *': {
@@ -117,7 +116,7 @@ const EditContact = (props) => {
               </Button>
             <Button
               style={{ left: "30px" }}
-              variant="contained"
+              variant="contained"x
               color="primary"
               size="small"
               startIcon={<SaveIcon />}
